@@ -18,14 +18,14 @@
                 <p> Romain de Beaucorps</p>
             </div>
             <div class="nav-section" id="nav-links-section">
-                <button onclick="handleAboutClick()">
-                    <p>À propos de moi</p>
+                <button onclick="handleAboutClick()" class="nav-button">
+                    <span>À propos de moi</span>
                 </button>
-                <button onclick="handleProjectsClick()">
-                    <p>Projets</p>
+                <button onclick="handleProjectsClick()" class="nav-button">
+                    <span>Projets</span>
                 </button>
-                <button onclick="handleContactClick()">
-                    <p>Contact</p>
+                <button onclick="handleContactClick()" class="nav-button">
+                    <span>Contact</span>
                 </button>
             </div>
             <div class="nav-section" id="nav-socials-section">
@@ -33,7 +33,7 @@
                     <i class="fa-brands fa-github fa-xl"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/RomaindeBeaucorps/" target="_blank" rel="noreferrer noopener">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                    <i class="fa-brands fa-linkedin fa-xl" id="nav-socials-linkedin"></i>
                 </a>
             </div>
         </nav>
@@ -41,8 +41,11 @@
 
     <main>
         <article data-index="0" data-status="active">
-            <div class="art-content" id="art-about">
-                <h1>pruto</h1>
+            <div class="art-content art-about">
+                <div class="art-about-top">top</div>
+                <div class="art-about-left">left</div>
+                <div class="art-about-middle">middle</div>
+                <div class="art-about-right">right</div>
             </div>
         </article>
         <article data-index="1" data-status="inactive">
